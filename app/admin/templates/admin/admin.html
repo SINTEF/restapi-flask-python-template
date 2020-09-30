@@ -1,0 +1,19 @@
+<!-- This file is based on the MIT licenced bulma-template https://github.com/BulmaTemplates -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/bulma.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/admin.css') }}">
+</head>
+
+<body>   
+    {% block body %}{% endblock %}
+</body>
+
+</html>
