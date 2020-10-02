@@ -38,4 +38,9 @@ jobs:
           mypy app
       - name: Run unittests
         run:
-          pytest
+          pytest --cov
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage
+          path: .coverage
