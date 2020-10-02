@@ -1,4 +1,5 @@
 pytest==6.0.2
+pytest-cov==2.10.1
 PyHamcrest==2.0.2
 ptvsd==4.3.2
 bandit>=1.6.2
