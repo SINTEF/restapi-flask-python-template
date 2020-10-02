@@ -12,7 +12,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run:
+        run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ] pip install -r requirements.txt
           if [ -f requirements-test.txt ] pip install -r requirements-test.txt
@@ -23,7 +23,7 @@ jobs:
         run:
           pylint app
       - name: Run safety
-        run:
+        run: |
           if [ -f requirements.txt ] safety check -r requirements.txt
           if [ -f requirements-test.txt ] safety check -r requirements-test.txt
       - name: Lint with MyPy
