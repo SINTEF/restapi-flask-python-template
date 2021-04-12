@@ -21,7 +21,7 @@ pluggy==0.13.1
 psycopg2-binary==2.8.6
 py==1.10.0
 pyparsing==2.4.7
-PyYAML==5.4
+PyYAML==5.3.1
 requests==2.25.1
 six==1.15.0
 smmap==3.0.4
@@ -31,7 +31,7 @@ toml==0.10.2
 typed-ast==1.4.2
 typing==3.7.4.3
 typing-extensions==3.7.4.3
-urllib3==1.26.4
+urllib3==1.26.2
 wcwidth==0.2.5
 Werkzeug==1.0.1
 wrapt==1.12.1
